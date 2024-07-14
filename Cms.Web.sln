@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Web", "Cms.Web\Cms.Web.csproj", "{485BE5F2-7C88-4857-A4B8-74E25AA8D0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Api", "Cms.Api\Cms.Api.csproj", "{E23467B9-44B6-4CCA-98B7-10CDBEBBD141}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Module.Api", "Cms.Module.Api\Cms.Module.Api.csproj", "{18135088-EC98-4D98-B916-802A8FC6881B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485BE5F2-7C88-4857-A4B8-74E25AA8D0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485BE5F2-7C88-4857-A4B8-74E25AA8D0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485BE5F2-7C88-4857-A4B8-74E25AA8D0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485BE5F2-7C88-4857-A4B8-74E25AA8D0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23467B9-44B6-4CCA-98B7-10CDBEBBD141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23467B9-44B6-4CCA-98B7-10CDBEBBD141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23467B9-44B6-4CCA-98B7-10CDBEBBD141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23467B9-44B6-4CCA-98B7-10CDBEBBD141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18135088-EC98-4D98-B916-802A8FC6881B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18135088-EC98-4D98-B916-802A8FC6881B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18135088-EC98-4D98-B916-802A8FC6881B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18135088-EC98-4D98-B916-802A8FC6881B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46253396-248C-43D7-8FA2-C55BE06F7C6B}
+	EndGlobalSection
+EndGlobal
