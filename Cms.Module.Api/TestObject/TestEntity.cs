@@ -41,6 +41,7 @@ namespace Cms.Module.Api.TestObject
         public async Task SaveTestObject(TestEntity testObject)
         {
             await _session.SaveAsync(testObject, TestEntity.Collection);
+            await _session.SaveChangesAsync();
         }
     }
     public class TestEntity: Entity
